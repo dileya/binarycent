@@ -8,6 +8,7 @@
 
 .giveaway-item {
     position: relative;
+    right: 20px;
 }
 .giveaway-item a{
     color: #FFD337!important;
