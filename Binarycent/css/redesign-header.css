@@ -1,0 +1,216 @@
+.logo {
+    
+}
+
+.header {
+    
+}
+
+.giveaway-item {
+    position: relative;
+}
+.giveaway-item a{
+    color: #FFD337!important;
+    padding: 8px 10px;
+}
+
+
+@-webkit-keyframes phone-atention {
+ 0%, 50%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); 
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  10%, 30% {
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg); }
+  20%, 40% {
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg); } 
+}
+@keyframes phone-atention {0%, 50%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); 
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  10%, 30% {
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg); }
+  20%, 40% {
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg); } 
+}
+
+.giveaway-item::after {
+    content: '';
+    position: absolute;
+    top:14px;
+    right: -12px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-animation: .3s ease;
+    animation: .3s ease;
+    width: 20px;
+    height: 20px;
+    background: url(../img/confetti1.svg) 0 0 / 100% no-repeat;
+
+}
+
+
+
+
+.giveaway-item:hover::after {
+    top:4px;
+    animation: phone-atention 1.6s ease-in-out 0s infinite;
+}
+
+.top-wrapper .menu li a {
+    text-transform: uppercase;
+}
+
+.top-wrapper > .main-logo, .top-wrapper > .main-menu .main-menu-wrapper, .top-wrapper > .main-enter, .top-wrapper > .main-menu {
+    flex: none;
+}
+
+.main-menu-wrapper .menu li:last-child {
+    margin-right: 0;
+}
+
+/*******************************************************/
+
+
+.styled-btn {
+    border: 2px solid #FFE14C;
+    border-radius: 4px;
+    background: none;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    box-shadow: none;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    line-height: 40px;
+    transition: all .3s ease;
+}
+
+.styled-btn:hover {
+    border: 2px solid #ffffff;
+}
+
+.header-form-wrapper .styled-btn:hover {
+    border: 2px solid #ffffff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.top-wrapper .main-enter .enter {
+    line-height: 24px;
+    max-width: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: auto;
+}
+
+.styled-btn2 {
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 1.3px;
+    text-align: center;
+    line-height: 24px;
+    background-color: unset;
+}
+
+.styled-btn2:hover {
+    color: #1A9FE0;
+}
+
+.header .header-form-wrapper {
+    display: block;
+    position: absolute;
+    width: 400px;
+    min-height: 640px;
+    background: rgba(26,159,264,.85);
+    top: 0;
+    right: -100%;
+    z-index: 12;
+    transition: all .3s ease-in-out;
+}
+
+.top-wrapper .main-enter .enter.active, .top-wrapper .main-enter .reg.active {
+    visibility: hidden;
+}
+.header .header-form-wrapper .open-form.active,
+.header .header-form-wrapper .styled-btn:hover{
+    background-color: #fff;
+    color: #1A9FE0;
+}
+.header .header-form-wrapper .reg.open-form, 
+.header .header-form-wrapper .enter.open-form {
+    /*position: absolute;*/
+    max-width: 160px;
+    height: 40px;
+    /*top: 24px;*/
+    /*right: 85px;*/
+    border: 1px solid #ffffff;
+    line-height: 24px;
+    display: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header .header-form-wrapper .reg.open-form {
+    display: block;
+    /*left: 85px;*/
+}
+
+.form-hd {
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.header .header-form-wrapper .main-form-wrapper {
+    max-width: 230px;
+    left: unset;
+    right: 85px;
+}
+
+.header .header-form-wrapper .main-form-wrapper form .form-block {
+    border: none;
+}
+
+.header .header-form-wrapper .main-form-wrapper form .form-block input {
+    padding-left: 20px;
+    padding-right: 38px;
+    letter-spacing: 0.45px;
+    line-height: 26px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.header .header-form-wrapper .main-form-wrapper form .form-block input[type="submit"] {
+    color: #1A9FE0;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    letter-spacing: 1.5px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 25px;
+}
+.header .header-form-wrapper .main-form-wrapper form .form-block input[type="submit"]:hover {
+    box-shadow: 0 0 30px rgba(0,255,255,0.4)!important;
+}
+
+.top-wrapper {
+    margin-bottom: 0;
+    height: 50px;
+}
+
+.lang .dropdown.icon {
+    color: #fff
+}

@@ -1,0 +1,420 @@
+@media (max-width: 1400px) {
+    .calculator-block .year-income {
+        transform: translateX(-65%);
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .calc-wrapper .calc-block:first-child {
+        margin-right: 30px;
+    }
+
+    .calculator-wrapper .calculator-block:nth-child(2) {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .footer-cols {
+        display: block;
+        margin-bottom: 0;
+        font-size: 0
+    }
+
+    .footer-cols .row-6 {
+        display: inline-block;
+        vertical-align: top;
+        width: 33.3333%;
+        margin-bottom: 40px
+    }
+
+    .calculator-block .year-income {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .calc-wrapper {
+        justify-content: unset;
+    }
+
+    .calc-wrapper .calc-block {
+        flex: unset;
+    }
+
+    .calc-wrapper .calc-block .jq-selectbox__select, .calc-wrapper .calc-block .money-input, .calc-wrapper .calc-block .jq-selectbox {
+        max-width: 280px;
+    }
+
+
+    .calc-wrapper .calc-block:first-child {
+        margin-right: 30px;
+    }
+
+    .calculator-wrapper .calculator-block:nth-child(2) {
+        padding-left: 30px;
+    }
+
+    .header .header-form-wrapper {
+        background: rgba(26, 159, 264, 1);
+    }
+
+    .post-slider {
+        width: 100%;
+    }
+
+    /*.post-item {
+        max-width: 945px;
+        width: 100%;
+    }*/
+}
+
+@media (max-width: 1099px) {
+    .stat-item {
+        width: 50%;
+        margin-bottom: 60px;
+        padding: 0 15px;
+    }
+
+    .contracts-slider {
+        max-width: 650px;
+    }
+
+    .contracts-slider .contract {
+        max-width: 325px;
+        margin-left: 40px;
+    }
+
+    .contracts-slider .contract .title .point {
+        right: -10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .top-wrapper {
+        justify-content: normal;
+    }
+
+    .top-wrapper > .main-menu {
+        margin-left: auto;
+    }
+
+    .post-item {
+        box-shadow: 0 20px 20px 0 rgba(171,172,172,0.25);
+    }
+    .footer-cols .row-6 {
+        width: 50%
+    }
+
+    .first_one h1 {
+        margin-bottom: 15px
+    }
+
+    .top-wrapper .main-enter .enter {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .steps-wrapper .step-block {
+        max-width: 185px;
+        flex: 1 185px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .steps-wrapper .step-block .desc {
+        padding-left: 0;
+    }
+
+    .calculator-wrapper .calculator-block:first-child {
+        flex: unset;
+        max-width: 280px;
+    }
+
+    .calculator-block .year-income {
+        transform: translateX(-75%);
+    }
+
+    .calc-wrapper .calc-block:first-child {
+        margin-right: 0;
+    }
+
+    .calculator-block .main-hd {
+        width: 200%;
+    }
+
+    .post-item {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .contracts-slider .contract {
+        margin: 10px;
+        max-width: 340px;
+        box-shadow: none!important;
+    }
+
+    .contracts-slider {
+        max-width: 340px;
+    }
+
+    .contracts-slider .contract-block {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .pay-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        margin-top: 30px;
+    }
+
+    .steps-wrapper::before, .steps-wrapper::after {
+        display: none;
+    }
+
+    .post-item {
+        max-width: 500px;
+    }
+
+    .steps-wrapper .step-block {
+        max-width: unset;
+        flex: unset;
+    }
+
+    .steps-wrapper .step-block .icon-block {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .steps-wrapper .step-block:not(:first-child) {
+        margin-top: 50px;
+    }
+
+    .calculator-block .main-hd {
+        width: 100%;
+        text-align: left;
+    }
+
+    .calculator-wrapper .calculator-block:first-child {
+        max-width: unset;
+    }
+
+    .calc-wrapper .calc-block .jq-selectbox__select, .calc-wrapper .calc-block .money-input, .calc-wrapper .calc-block .jq-selectbox {
+        max-width: unset;
+        width: 100%;
+    }
+
+    .calc-wrapper .calc-block .jq-selectbox__dropdown {
+        max-width: unset;
+    }
+
+    .footer-cols .row-6 {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center
+    }
+
+    .footer-column ul li {
+        padding-right: 0
+    }
+
+    .footer > .row > .float-left, .footer > .row > .float-right {
+        float: none;
+        text-align: center
+    }
+
+    .footer .soc-list {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .footer .soc-list li {
+        padding-left: 5px;
+        padding-right: 5px
+    }
+
+    .steps-wrapper .step-block:last-child .icon-block {
+        max-width: 180px;
+    }
+
+    .calculator-wrapper .calculator-block:nth-child(2) {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .calculator-block .year-income {
+        transform: translateX(-90%);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .post-item {
+        max-width: 400px;
+    }
+
+    .calculator-block .year-income {
+        transform: translateX(-80%);
+    }
+
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-container .blue-btn:first-child {
+        margin-right: 0;
+    }
+
+    .btn-container .blue-btn:last-child {
+        margin-top: 20px;
+    }
+
+    .contracts-tab-wrapper .contracts-tab:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .contracts-tab-wrapper .contracts-tab {
+        font-size: 16px;
+    }
+
+    .contracts-wrapper {
+        margin-top: 40px;
+    }
+
+    .banner-wrapper .banner-title, .landing-title, .calculator-wrapper .calculator-block .main-hd, .calculator-block .year-income span {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .steps-section, .blue-section, .news-section {
+        margin-top: 60px;
+    }
+
+    .blue-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .calculator-section {
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    .calc-wrapper .calc-block .jq-selectbox__select-text {
+        font-size: 18px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    .footer p {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pay-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .top-wrapper > .main-menu .main-menu-wrapper.active {
+        background: rgba(0,140,223,0.9);
+        right: 0;
+    }
+
+    .calculator-block .year-income {
+        transform: translateX(-60%);
+    }
+
+    .header .header-form-wrapper {
+        width: 100%;
+    }
+
+    .form-close {
+        display: block;
+    }
+
+   /* .header .header-form-wrapper .reg.open-form, .header .header-form-wrapper .enter.open-form {
+        right: 50%;
+        transform: translateX(50%);
+        max-width: 160px;
+        width: 100%;
+    }*/
+
+    .header .header-form-wrapper .main-form-wrapper {
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+
+    .fs48 {
+        font-size: 38px;
+    }
+
+    .post-item {
+        max-width: 320px;
+    }
+
+    .contracts-tab-wrapper {
+        overflow-x: scroll;
+    }
+
+    .contracts-tab-wrapper .contracts-tab {
+        white-space: nowrap;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .post-item .post-preview {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .post-item {
+        max-width: 270px;
+        box-shadow: 0 5px 20px 0 rgba(171,172,172,0.25);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contracts-slider .contract {
+        max-width: 270px;
+    }
+
+    .contracts-slider, .contracts-slider .contract-block {
+        max-width: 300px;
+    }
+
+    .contracts-slider .contract .title .point {
+        right: -20px;
+    }
+
+    .fs48 {
+        font-size: 32px;
+    }
+
+    .calculator-block .year-income {
+        position: relative;
+        transform: translateX(0);
+        left: unset;
+        max-width: 100%;
+        box-shadow: -15px 15px 20px 0 rgba(123,141,144,0.25);
+    }
+}

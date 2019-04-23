@@ -1,0 +1,720 @@
+.row,
+.third_one,
+section {
+    position: relative
+}
+
+.clearfix:after,
+.menu-toggle:after,
+.menu-toggle:before {
+    content: ''
+}
+
+.col-50,
+.float-left,
+.steps {
+    float: left
+}
+
+a:focus,
+a:hover {
+    outline: 0
+}
+
+.top-drop-in-css > .menu .item {
+    margin: 0 !important;
+    display: block;
+}
+
+.top-drop-in-css > .menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    text-align: left;
+    background: rgba(0,0,0,.78);
+}
+.top-drop-in-css:hover > .menu {
+    display: inline-block;
+}
+
+.clearfix {
+    clear: both
+}
+
+.clearfix:after {
+    display: block;
+    clear: both
+}
+
+.menu-toggle {
+    height: 24px;
+    width: 25px;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    display: none
+}
+
+.menu-toggle i,
+.menu-toggle:after,
+.menu-toggle:before {
+    display: block;
+    height: 2px;
+    background: #fff;
+    width: 100%
+}
+
+.menu-toggle i {
+    margin-top: 6px
+}
+
+.menu-toggle:before {
+    margin-top: 3px
+}
+
+.menu-toggle:after {
+    margin-top: 6px
+}
+
+.top-nav {
+    margin: 0 0 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out
+}
+
+.top-nav.dark {
+    background: #061b30
+}
+
+.top-nav.inner {
+    position: relative
+}
+
+.top-nav .item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px
+}
+
+.top-nav .nav>.item+.item {
+    margin-left: 15px
+}
+
+.top-nav .not-item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 30px 0 25px
+}
+
+.top-nav .lang .dropdown.icon {
+    color: #fff
+}
+
+.top-nav .head-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block
+}
+
+.float-right {
+    float: right
+}
+
+.logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0!important
+}
+
+.logo img {
+    width: 205px;
+    height: 36px
+}
+
+.float-right.nav {
+    height: 100%
+}
+
+.float-right.nav .item a:not(.ui.button) {
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    padding: 8px 10px;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out
+}
+
+.float-right.nav .item a:not(.ui.button):hover {
+    color: #2597c7
+}
+
+.float-left.nav {
+    height: 100%;
+    padding-top: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none
+}
+
+.float-left.nav .item a {
+    color: #fff;
+    display: block;
+    padding: 8px 10px;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    font-size: 18px
+}
+
+.float-left.nav .item+.item {
+    margin-left: 10px
+}
+
+.float-left.nav .item a:hover {
+    color: #004fbf;
+    text-decoration: none
+}
+
+i.flag-icon {
+    display: block;
+    width: 24px;
+    height: 16px;
+    float: left;
+    margin: -1px 0 0
+}
+
+.ui.button,
+.ui.button.register {
+    display: inline-block;
+    outline: 0;
+    text-decoration: none;
+    text-align: center
+}
+
+.menu i.flag-icon {
+    margin-right: 10px
+}
+
+i.flag-icon.eng {
+    background: url(../img/flags.png) -60px -20px no-repeat
+}
+
+i.flag-icon.rus {
+    background: url(../img/flags.png) -60px 0 no-repeat
+}
+
+i.flag-icon.chi {
+    background: url(../img/flags.png) 0 -20px no-repeat
+}
+
+i.flag-icon.fra {
+    background: url(../img/flags.png) no-repeat
+}
+
+i.flag-icon.spa {
+    background: url(../img/flags.png) -30px 0 no-repeat
+}
+
+i.flag-icon.arb {
+    background: url(../img/flags.png) -30px -20px no-repeat
+}
+
+i.flag-icon.tai {
+    background: url(../img/flags.png) -90px 0 no-repeat
+}
+
+.ui.button {
+    cursor: pointer;
+    min-height: 1em;
+    border: none;
+    vertical-align: baseline;
+    background: #004fbf;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 13px 23px;
+    text-transform: none!important;
+    text-shadow: none;
+    font-weight: 400;
+    line-height: 1em;
+    font-style: normal;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 18px;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out
+}
+
+.ui.button:hover {
+    background: #0e63dc
+}
+
+.ui.button.register {
+    background: #004fbf;
+    border-radius: 4px;
+    padding: 10px 22px!important;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    font-weight: 300
+}
+
+.ui.button.login {
+    font-weight: 300;
+    text-decoration: none;
+    background: 0 0;
+    color: #fff;
+    display: block;
+    padding: 10px 22px;
+    border: 1px solid #464646;
+    border-radius: 4px;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out
+}
+
+.ui.button.register:hover {
+    background: #0e63dc!important
+}
+
+.ui.button.login:hover {
+    background: #464646;
+    color: #fff
+}
+
+.ts-btn-wrap .ui.button {
+    border: 1px solid #004fbf;
+    height: 65px;
+    vertical-align: top;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 10px
+}
+
+.ui.dropdown>.text span {
+    display: none
+}
+
+.ts-btn-wrap .ui.button:hover {
+    border-color: #0e63dc
+}
+
+.ts-btn-wrap .ui.button img {
+    margin-right: 10px
+}
+
+.ts-btn-wrap .ui.button small {
+    margin-top: 3px;
+    text-transform: none
+}
+
+.ui.button.outlined {
+    border: 1px solid rgba(255, 255, 255, .6);
+    color: #fff;
+    background: 0 0
+}
+
+.ui.button.outlined:hover {
+    border-color: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, .3)
+}
+
+.ui.sidebar .ui.button.register {
+    width: 100%
+}
+
+.maxw100 {
+    max-width: 100%
+}
+
+@media (max-width:1160px) {
+    .follow-screen,
+    .follow-steps {
+        width: 100%!important;
+        float: none!important;
+        max-width: 560px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .top-nav .head-row {
+        display: block!important
+    }
+    .menu-toggle {
+        display: block;
+        float: right;
+        margin-left: 25px
+    }
+    .float-left.nav .item,
+    .float-right.nav .item:not(.lang),
+    .float-right.nav .not-item {
+        display: none
+    }
+    .float-left.nav {
+        padding-top: 12px
+    }
+    .float-right.nav {
+        height: auto
+    }
+    .first_one h2 {
+        line-height: 56px
+    }
+
+@media (max-width:420px) {
+    .logo img {
+        width: 140px;
+        height: auto
+    }
+
+    .mob-tab-nav .text {
+        font-size: 16px;
+        vertical-align: middle;
+        color: #ffc100!important;
+        white-space: nowrap;
+        width: calc(100% - 30px);
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+    
+    .mob-tab-nav {
+        max-width: 400px;
+        margin: 0 auto;
+        display: none
+    }
+    
+    .ui.dropdown.mob-tabular {
+        background: #262626;
+        width: 100%;
+        padding: 14px 15px;
+        border-bottom: 3px solid #ffc100
+    }
+    
+    .ui.dropdown.mob-tabular>.dropdown.icon {
+        float: right;
+        margin-top: 8px;
+        vertical-align: middle
+    }
+    
+    .ui.dropdown.mob-tabular .menu {
+        margin-left: 0;
+        min-width: 100%;
+        padding: 0
+    }
+    
+    .ui.dropdown.mob-tabular .menu>.item {
+        font-size: 16px;
+        padding: 14px 15px!important;
+        text-decoration: none;
+        display: block;
+        background: #1f1e1e;
+        color: #fff;
+        white-space: normal
+    }
+    
+    .mob-tab-nav .item:after {
+        display: none!important
+    }
+    
+    .acc_drop,
+    .ui.sidebar.menu .ui.item.lang {
+        display: none
+    }
+    
+    .ui.sidebar.menu .acc_drop .item {
+        padding-right: 0
+    }
+    
+    .ui.sidebar .ui.button.sign {
+        min-width: 100%
+    }
+    
+    @media (max-width:1279px) {
+        .float-left.nav .item a,
+        .float-right.nav .not-item a,
+        .float-right.nav>.item:not(.lang) a,
+        .top-nav.inner .float-left.nav .item,
+        .top-nav.inner .float-left.nav .item a,
+        .top-nav.inner .float-right.nav .not-item,
+        .top-nav.inner .float-right.nav .not-item a,
+        .top-nav.inner .float-right.nav>.item:not(.lang),
+        .top-nav.inner .float-right.nav>.item:not(.lang) a {
+            font-size: 14px
+        }
+        .top-drop-in-css>.menu .item a {
+            font-size: 14px!important
+        }
+        .float-left.nav {
+            padding-top: 18px
+        }
+    }
+    
+    @media (max-width:1139px) {
+        .top-nav {
+            text-align: left
+        }
+        .float-left.nav {
+            margin-left: 185px
+        }
+        .float-left.nav .item,
+        .float-right.nav .not-item,
+        .float-right.nav>.item:not(.lang),
+        .top-nav.inner .float-left.nav .item,
+        .top-nav.inner .float-right.nav .not-item,
+        .top-nav.inner .float-right.nav>.item:not(.lang) {
+            display: inline-block
+        }
+        .menu-toggle {
+            display: none
+        }
+        .img-bg-section {
+            padding-top: 80px
+        }
+        .ui.sidebar {
+            padding-top: 72px!important
+        }
+        .top-bar .float-left {
+            margin-top: 6px;
+            margin-left: 175px
+        }
+        .logo {
+            padding-top: 0;
+            width: 150px;
+            position: absolute;
+            top: 11px;
+            left: 15px;
+            z-index: 22;
+            margin-top: 0!important
+        }
+        .logo img {
+            width: 150px;
+            height: 25px
+        }
+        .logo a {
+            display: block
+        }
+        .top-nav,
+        .top-nav.dark {
+            padding-bottom: 0
+        }
+        .ui.dropdown.dropdown-call .menu {
+            margin: 13px 0 0;
+            left: -36px;
+            width: 275px;
+            min-width: 275px
+        }
+        .ui.dropdown.dropdown-call .menu * {
+            white-space: normal
+        }
+        .ui.dropdown.dropdown-call .menu .callback-btn {
+            margin: 20px auto 0;
+            display: block;
+            max-width: 130px;
+            padding: 14px 20px!important
+        }
+        input.call-input {
+            width: 208px
+        }
+        .phone-notice {
+            text-align: center
+        }
+    }
+    
+    
+    @media (max-width:1023px) {
+        .float-left.nav {
+            display: none;
+            padding-top: 12px
+        }
+        .ui.pointing.dropdown.lang>.menu:after {
+            left: 80%
+        }
+        .float-right.nav {
+            padding-top: 0;
+            height: auto
+        }
+        .top-bar .float-right.nav {
+            padding-top: 5px
+        }
+        .sidebar .ui.dropdown .menu {
+            left: 0;
+            margin-left: 25px!important
+        }
+        .sidebar .ui.pointing.dropdown>.menu:after {
+            left: 17%!important
+        }
+        .ui.sidebar .ui.pointing.dropdown .item {
+            font-size: 14px!important;
+            text-transform: capitalize!important
+        }
+        .ui.sidebar .ui.button.login {
+            background: rgba(255, 255, 255, .05);
+            border-radius: 20px;
+            padding: 10px 20px!important
+        }
+        .ui.sidebar .ui.button.login,
+        .ui.sidebar .ui.button.sign {
+            min-width: 100%
+        }
+        .float-left.nav .item,
+        .float-right.nav .not-item,
+        .float-right.nav>.item:not(.lang),
+        .top-nav.inner .float-left.nav .item,
+        .top-nav.inner .float-right.nav .not-item,
+        .top-nav.inner .float-right.nav>.item:not(.lang) {
+            display: none
+        }
+        .menu-toggle {
+            display: block;
+            float: right;
+            margin-left: 20px
+        }
+    }
+    
+    @media (max-width:920px) {
+        .top-section .row {
+            padding-right: 20px;
+            padding-left: 20px
+        }
+        .menu-toggle {
+            margin-left: 15px
+        }
+    }
+    
+    @media (max-width:860px) {
+        .top-info .tabular .item {
+            padding: 22px 20px
+        }
+    }
+    @media (max-width:480px) {
+        
+        .ui.accordion .title:not(.ui) {
+            font-size: 15px
+        }
+        .ui.sidebar.menu .ui.item.lang {
+            display: inline-block;
+            margin-top: 20px;
+            margin-right: 0
+        }
+        .ui.dropdown.dropdown-call .menu {
+            left: -125px
+        }
+        .top-bar .float-left {
+            margin-left: 125px
+        }
+        .logo {
+            width: 110px;
+            top: 10px
+        }
+        .logo img {
+            width: 110px;
+            height: 19px
+        }
+        .advantage-item,
+        .calendar-wrap {
+            width: 100%
+        }
+        .top-bar-nav span {
+            display: none
+        }
+        .top-bar .dinb {
+            margin-right: 8px
+        }
+        .top-phone {
+            font-size: 12px;
+            margin-right: 20px
+        }
+        .top-info>p br {
+            display: none
+        }
+      
+    }
+    
+    @media (max-width:455px) {
+        .top-nav>.top-bar .float-left {
+            display: none
+        }
+    }
+    
+    @media (max-width:420px) {
+        .float-right.nav>.item:last-child {
+            display: none!important
+        }
+        .login-form {
+            padding: 0 30px 40px
+        }
+        h1.main-title {
+            font-size: 27px;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-bottom: 40px
+        }
+        .ui.left.sidebar,
+        .ui.right.sidebar {
+            width: 220px!important
+        }
+        .ui.button.big {
+            padding: 20px 40px
+        }
+    }
+    
+    @media (max-width:350px) {
+        .ui.dropdown.dropdown-call .menu {
+            left: -120px
+        }
+        .menu-toggle {
+            width: 20px
+        }
+        .top-bar .float-left {
+            margin-left: 120px
+        }
+        .top-phone {
+            font-size: 11px
+        }
+    }
+    
+    
+    @media (max-width:1139px) {
+        .logo {
+            padding-top: 0!important
+        }
+        .logo a img {
+            width: 150px;
+            height: 25px
+        }
+    }
+    
+    @media (max-width:1160px) {
+        .logo {
+            padding-top: 0;
+            width: 150px;
+            position: absolute;
+            top: 11px;
+            left: 15px;
+            z-index: 22;
+            margin-top: 0
+        }
+        .top-nav>.top-bar .float-left {
+            margin-top: 8px;
+            margin-left: 175px;
+            margin-bottom: 10px
+        }
+        .top-bar .float-right.nav {
+            padding-top: 5px
+        }
+    }
+    
+   
